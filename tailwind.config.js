@@ -14,6 +14,7 @@ export default {
         feedBackBg: "#F9FAFB",
         borderGray: "#D0D5DD",
         footerText: "#667085",
+        arrow: "#9E77ED",
       },
     },
   },

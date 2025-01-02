@@ -12,9 +12,9 @@ function Signup() {
             New feature
           </button>
 
-          <span className="text-xs sm:text-sm font-medium text-textPurple flex items-center gap-2 text-center sm:text-left">
+          <span className="text-xs sm:text-sm font-medium text-textPurple flex  items-center gap-2 text-center sm:text-left">
             Check out the team dashboard
-            <FaArrowRightLong />
+            <FaArrowRightLong className="text-arrow" />
           </span>
         </a>
 
