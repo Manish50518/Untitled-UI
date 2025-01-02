@@ -8,12 +8,10 @@ function Signup() {
           href="/"
           className="flex flex-col sm:flex-row items-center bg-primaryPurple p-1 rounded-full gap-3 w-full sm:w-[355px] sm:h-[34px]"
         >
-          {/* Button */}
           <button className="border border-secondryPurple rounded-full text-xs sm:text-sm font-medium text-textPurple hover:bg-purple-100 transition-all  sm:h-[25px]  sm:w-[90px] S h-[25px] w-[90px] p-[1px]">
             New feature
           </button>
 
-          {/* Text and arrow */}
           <span className="text-xs sm:text-sm font-medium text-textPurple flex items-center gap-2 text-center sm:text-left">
             Check out the team dashboard
             <FaArrowRightLong />

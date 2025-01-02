@@ -22,7 +22,6 @@ function Header() {
           Untitled UI
         </div>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
           <a
             href="#"
@@ -109,7 +108,6 @@ function Header() {
         </nav>
       </div>
 
-      {/* Profile Picture (Desktop) */}
       <div className="hidden md:block w-10 h-10 mr-3 rounded-full overflow-hidden cursor-pointer">
         <img
           src="Avatar (1).png"
@@ -118,7 +116,6 @@ function Header() {
         />
       </div>
 
-      {/* Mobile Hamburger Menu */}
       <div className="md:hidden flex items-center">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -141,7 +138,6 @@ function Header() {
         </button>
       </div>
 
-      {/* Mobile Navigation Menu */}
       {isMenuOpen && (
         <div className="fixed top-0 left-0 h-full w-[343px] bg-white border-r  shadow-md z-50 md:hidden">
           <div className="p-4 flex justify-between items-center border-b">

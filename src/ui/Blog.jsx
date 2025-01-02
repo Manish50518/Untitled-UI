@@ -3,7 +3,6 @@ import { GoArrowUpRight } from "react-icons/go";
 function Blog() {
   return (
     <div className="px-4 sm:px-0 mb-20">
-      {/* Blog Header Section */}
       <div className="max-w-[1216px] mx-auto mb-10">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
           <span className="text-base font-semibold text-textPurple mb-2 sm:mb-0">
@@ -21,9 +20,7 @@ function Blog() {
         </p>
       </div>
 
-      {/* Blog Posts Section */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 max-w-[1216px] mx-auto">
-        {/* Post 1 */}
         <section className="w-full sm:w-[384px]">
           <img
             src="Image (4).png"
@@ -58,7 +55,6 @@ function Blog() {
           </div>
         </section>
 
-        {/* Post 2 */}
         <section className="w-full sm:w-[384px]">
           <img
             src="Image (5).png"
@@ -93,7 +89,6 @@ function Blog() {
           </div>
         </section>
 
-        {/* Post 3 */}
         <section className="w-full sm:w-[384px]">
           <img
             src="Image (6).png"

@@ -5,7 +5,6 @@ import { RiChatSmile2Line } from "react-icons/ri";
 function Features2() {
   return (
     <div className="flex flex-col justify-center items-center px-4 sm:px-8">
-      {/* Text Content */}
       <div className="text-center mb-8">
         <h3 className="text-textPurple text-base font-semibold rounded-full bg-primaryPurple p-2 w-[83px] mx-auto border-textPurple mb-4">
           Features
@@ -19,16 +18,13 @@ function Features2() {
         </p>
       </div>
 
-      {/* Images */}
       <div className="relative flex justify-center items-center w-full sm:w-[768px] h-auto sm:h-[512px] mb-8">
-        {/* Background Image */}
         <img
           src="3_2 screen mockup.png"
           alt="Web screen"
           className="w-full max-w-[800px] object-contain"
         />
 
-        {/* Floating Image */}
         <img
           src="iPhone 12 Pro mockup.png"
           alt="iPhone screen"
@@ -36,9 +32,7 @@ function Features2() {
         />
       </div>
 
-      {/* Features Section */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-8 sm:gap-4 w-full sm:w-[1216px]">
-        {/* Feature 1 */}
         <div className="mt-9 text-center flex flex-col items-center">
           <IoChatbubblesOutline className="mb-3 text-3xl p-1 shadow-lg rounded-md text-gray-700" />
           <h2 className="text-headingFont text-lg sm:text-xl font-semibold leading-[30px] mb-2">
@@ -56,7 +50,6 @@ function Features2() {
           </a>
         </div>
 
-        {/* Feature 2 */}
         <div className="mt-9 text-center flex flex-col items-center">
           <AiOutlineThunderbolt className="mb-3 text-3xl p-1 shadow-lg rounded-md text-gray-700" />
           <h2 className="text-headingFont text-lg sm:text-xl font-semibold leading-[30px] mb-2">
@@ -74,7 +67,6 @@ function Features2() {
           </a>
         </div>
 
-        {/* Feature 3 */}
         <div className="mt-9 text-center flex flex-col items-center">
           <RiChatSmile2Line className="mb-3 text-3xl p-1 shadow-lg rounded-md text-gray-700" />
           <h2 className="text-headingFont text-lg sm:text-xl font-semibold leading-[30px] mb-2">

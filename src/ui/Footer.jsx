@@ -77,10 +77,8 @@ const Footer = () => {
         ))}
       </div>
 
-      {/* Divider */}
       <hr className="border-t border-gray-300 w-full my-6 sm:my-10" />
 
-      {/* Footer Bottom Section */}
       <div className="max-w-[1216px] px-4 sm:px-8 mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
           <img
