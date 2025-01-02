@@ -2,7 +2,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Blog() {
   return (
-    <div className="px-4 sm:px-0">
+    <div className="px-4 sm:px-0 mb-20">
       {/* Blog Header Section */}
       <div className="max-w-[1216px] mx-auto mb-10">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
