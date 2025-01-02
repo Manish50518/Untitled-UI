@@ -15,7 +15,7 @@ function Blog() {
         <h2 className="text-2xl sm:text-4xl font-semibold leading-[32px] sm:leading-[44px] text-headingFont mb-2">
           Latest blog posts
         </h2>
-        <p className="text-subText text-base sm:text-xl">
+        <p className="text-subText text-base sm:text-xl mt-4">
           Tools and strategies modern teams need to help their companies grow.
         </p>
       </div>
