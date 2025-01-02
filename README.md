@@ -14,8 +14,6 @@ Key Features:
 
 Deployed on Vercel for live access: [Untitled UI Demo](https://untitled-ui-wine.vercel.app/)
 
-This version explicitly mentions **React** and **Tailwind CSS** under the **Technologies Used** section, making it clear what tools were used to build the project. Let me know if you'd like to modify anything further!
-
 ## Installation Instructions
 
 To set up the project locally:
