@@ -85,7 +85,7 @@ function Signup() {
         </div>
       </div>
 
-      <hr className="border-t border-gray-300 w-full my-10" />
+      <hr className="border-t border-gray-300 w-[1216px] my-10 mx-auto" />
     </>
   );
 }
