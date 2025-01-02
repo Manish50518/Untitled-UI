@@ -55,7 +55,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-white">
+    <footer className="bg-white mb-10">
       {/* Footer Sections */}
       <div className="max-w-[1280px] py-10 px-4 sm:px-8 mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 sm:gap-12">
         {footerSections.map((section, index) => (
