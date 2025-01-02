@@ -6,7 +6,7 @@ function Signup() {
       <div className="flex flex-col items-center justify-center mt-32 w-full px-4 lg:w-[1024px] lg:h-[312px] mx-auto gap-6">
         <a
           href="/"
-          className="flex flex-col sm:flex-row items-center bg-primaryPurple p-1 rounded-full gap-3 w-full sm:w-[355px] sm:h-[34px]"
+          className="flex flex-col sm:flex-row items-center bg-primaryPurple p-1 rounded-full gap-3 w-full sm:w-[355px] sm:h-[34px] border  border-secondryPurple"
         >
           <button className="border border-secondryPurple rounded-full text-xs sm:text-sm font-medium text-textPurple hover:bg-purple-100 transition-all  sm:h-[25px]  sm:w-[90px] S h-[25px] w-[90px] p-[1px]">
             New feature
